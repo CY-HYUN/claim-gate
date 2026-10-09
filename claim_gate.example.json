@@ -1,0 +1,12 @@
+{
+  "mode": "block",
+  "min_reply_chars": 40,
+  "rules": {
+    "completion": {"enabled": true, "marker": "Verified:", "min_evidence": 1},
+    "number": {"enabled": true, "marker": "Counted with:", "min_evidence": 1},
+    "absence": {"enabled": true, "marker": "Searched:", "min_evidence": 2},
+    "universal": {"enabled": true, "marker": "Scope:"},
+    "correction": {"enabled": true, "marker": "Correction source:", "min_evidence": 1,
+                   "extra_triggers": ["\\bcorrigé\\b", "\\bKorrektur\\b"]}
+  }
+}

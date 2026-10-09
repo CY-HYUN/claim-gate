@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+# a local config is personal; claim_gate.example.json is the shared one
+claim_gate.json
