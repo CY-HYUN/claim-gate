@@ -1,5 +1,7 @@
 # claim-gate
 
+![tests](https://github.com/CY-HYUN/claim-gate/actions/workflows/tests.yml/badge.svg)
+
 A Claude Code **Stop hook** that stops the assistant from ending its turn on a claim it has not backed up.
 When a reply says "all tests pass", "found 42 files" or "nothing calls this" without showing the command
 that proves it, the hook blocks the stop and tells the model which evidence to add.
